@@ -1,0 +1,13 @@
+Question 1) What is HashMap?
+Answer) The HashMap class of the Java collection framework provide the functionality of the hashtable data structure.
+        Hashmap class implements the map interface which allows us to store key and value pairs, where key should be always
+        unique. If you try to insert duplicate value, it will override the value.
+        It is easy to perform operation using the key index like updation or insertion and deletion etc.
+
+*** Points to remember
+1) Java Hashmap contain value based on the key.
+2) Java Hashmap contain only unique keys.
+3) Java Hashmap may have one null key and multiple null values.
+4) Java Hashmap is non synchronized.
+5) Java Hashmap maintain no order.
+6) The intial default capacity of Java hashmap class is 16 with a load factor of 0.75.

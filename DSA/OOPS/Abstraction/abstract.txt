@@ -1,0 +1,62 @@
+Question no 1) What is Abstract Class?
+
+Answer) A class which is declared the abstract keyword is known as abstract class.
+        It can have abstract and non-abstract method.
+
+Question 2) What is Abstraction?
+Answer) Abstraction is a process of hiding the implementation and showing the functionality to the user.
+
+** There are two ways to achieve abstraction
+i) Abstract class
+ii) Interface
+
+** Some points to be noted
+
+i) It need to extended.
+ii) It cannot be instantiated.
+iii) Abstract class must be declared with in abstract keyword.
+iv) It can have abstract and non-abstract method.
+v) It can have constructor and static method.
+vi) You can declare a variable in abstract class.
+vii) It can have final method which will force the subclass not to change the body of the method.
+viii) Any class contain one or more abstract method must be also declared abstract.
+ix) There cannot object of an abstract class.
+x) You cannot create an object of abstract class.
+xi) When you definately know an object of abstract method or function is overriden declare as abstract keyword.
+x) You can not create abstract static method.
+xi) You can not create abstract constructor.
+x) You can declare static method in abstract class.
+xi) You can declare normal method.
+xii) You can not override static method.
+
+
+Abstract class vs Interface
+
+- Types of methods:
+  Interface can have only abstract method.
+  Abstract class have abstract or non-abstract method.
+
+- Final variable
+
+  Variable declared in java interface are by default final.
+  Ab abstract class may contain non-final variable.
+
+- Types of variable:
+
+  Abstract class have final, non-final, static or non-static variable
+  Interface can have only static and final variable.
+
+-Implementation
+
+ Abstract class can provide the implementation of interface.
+ Interface can't provide the implementation of abstract class.
+
+- Multiple Implementation
+
+  An Interface extend another java interface only.
+  An abstract class can extend another java class and implement multiple interface.
+
+- Accessibility of data member
+
+  Member of java interface are public by default.
+  An abstract class can have class member like private, protected etc.
