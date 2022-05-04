@@ -1,0 +1,37 @@
+Question 1) What is class?
+Answer) * A class is a logical construct.
+        * A class is a named grouped properties or function.
+        * A class start with capital letter.
+        * When you create you own datatype you are creating using class.
+        * A class create a datatype that can be used to create an object.
+
+Question 2) What is object?
+Answer) * An object is physical stuff.
+        * When ever declare an object of class you can create instance of a class.
+        * An object occupies some space in memory.
+        * Instance means physical stuff of that class.
+        * Object are stored in heap memory.
+
+    ** Object are characterized by three essential properties
+        1) State -> Value from its datatype.
+        2) Identity -> One object like different from another.
+        4) Behavior -> Effect od datatype operations.
+
+
+Question 3) What is Dot Operator?
+Answer) Dot operator link the reference variable with the name of tha instance variable.
+
+Question 4) What is Instance variable?
+Answer) Variable which are declared inside the class but outside the constructor or method are called Instance variable.
+
+Question 5) What is Reference Variable?
+Answer)  The variable which is defined object are called reference variable.
+
+Question 6) What is new Keyword?
+Answer) The new keyword dynamic allocate (this is allocate at run time), memory for an object & return a refernce to it.
+
+Question 7) What is dynamic memory allocation?
+Answer) Memory allocate at runtime are called memory allocation.
+
+Note: - All class object in java must be allocate dynamically.
+        When you create an object of a class it means that it is being instantiated.
