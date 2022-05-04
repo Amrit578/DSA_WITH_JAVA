@@ -35,3 +35,5 @@ Answer) Memory allocate at runtime are called memory allocation.
 
 Note: - All class object in java must be allocate dynamically.
         When you create an object of a class it means that it is being instantiated.
+        In java primitive datatype are not implemented as object. They are store in stack memory.
+

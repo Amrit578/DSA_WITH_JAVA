@@ -1,0 +1,20 @@
+Question 1) What is Constructor?
+Answer) A constructor basically define what happen when the object is created.
+        A constructor is a special method that is used to initialize object.
+        The constructor called when the object is created.
+        It can be used to set initial value for object attribute.
+        A constructor is block of code similar to the method.
+        A constructor name same as the class name.
+        A constructor must not have a return type.
+        A constructor is invoked implicitly.
+
+
+Note: - It is not necessary to write a constructor of a class because java compiler creates a default constructor if you doesn't have any.
+
+        Every time an object is created using new() keyword to at least one constructor called.
+
+** Rule Constructor follow: -
+
+  * A constructor of a class must have same name as the class name in which it resides.
+  * A constructor in java cannot be abstract, final, static or synchronized.
+  * Access modifiers can be used in constructor declaration to control its access i.e which other class can call the constructor.
