@@ -1,0 +1,51 @@
+Question 1) What is static keyword?
+Answer) Static keyword is used for memory management mainly.
+        Such properties that are not really related to the object but we are common to all the object class we declare as static.
+        When a member is declare static it can be access before any of the object of the class is created and without referencing to the object.
+        Static variable is not dependent to the object. It is independent.
+        Static method access only static data, It cannot access non static data, but non-static member access static data.
+
+
+
+        Example: -
+        //this is not dependent on the object
+        static void fun()
+        {
+            greeting(); // you cannot use this because it requires instance.
+                        // but the function you are using it in does not dependent on instance.
+
+                        // And if you want to access-non static member in static member firstly you want to create an object the you can access like
+
+            Main obj = new Main();
+            obj.greeting();
+
+        }
+
+
+Question 2) Initialization of static variable
+Answer) Static block executed exactly one when the first class loaded.
+        Static will only run once, When the first obj is create i.e when the class is loaded for the first time.
+        Static resolve at compile time.
+
+        System.out.println();
+
+        System is a class
+        Out is a variable
+        println is method
+
+        Out is reference of a class of type print stream.
+
+Question 3) What is singleton class?
+Answer) It just a class in which you can create only one object.
+
+
+
+Note: - this and super cannot be used in static context.
+
+Question 4) Why is the Java main method static?
+Answer) It is because the object is not required to call the static method. If it were non static method JVM create an object first then call main() method that will lead the problem of extra memory allocation.
+
+
+** Java static block: -
+   Is used to initialize the static data member.
+   It is executed before the main method at the time of classloading.
