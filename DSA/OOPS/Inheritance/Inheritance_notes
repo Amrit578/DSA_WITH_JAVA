@@ -1,0 +1,27 @@
+Question 1) What is inheritance?
+Answer) Inheritance in java child class acquire all the properties and behavior of parent class.
+
+        You can inherit properties using extends keyword
+        When you inherit from an existing class, you can reuse methods and field of parent class.
+
+        You can add new method and field in your current class also.
+        Child class means it have a properties of base class plus it have some additional properties its own.
+
+
+        Example: -
+        Box box1 = new BoxWeight();
+        //when a reference to a subclass object is assign to a superclass reference variable you will only have to access only those parts
+          of the object that are only define in superclass.
+
+        BoxWeight box1 = new Box();
+
+        // There are many variable in both parent class and child class.
+        // You are given access to variable that are in the ref type i.e BoxWeight
+        // Hence, you should access to weight variable.
+        // This also means, that the ones you are trying to access should be initailised.
+        // But here, when the object itself is of type parent class, how will you call the constructor of child class.
+
+Question) Why we use Inheritance?
+Answer) For method overriding ( so runtime polymorphism achieved).
+        For code Reusability.
+
