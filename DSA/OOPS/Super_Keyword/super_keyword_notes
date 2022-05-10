@@ -1,0 +1,13 @@
+Question 1) What is super keyword?
+Answer) Super keyword is a reference variable is to used to refer immediate parent class object.
+        Super keyword calling the parent class constructor/
+        Super keyword used to initialise value present in parent class.
+        When ever you create instance of the subclass, an instance of the parent class create implicitly which is referred by super reference variable.
+        Super is called first. Super keyword does not care about child class.
+Note: - Super is added in each class constructor automatically by compiler if there is no super() or this().
+
+*** Usage of super class
+   1) Super is used to refer immediate of parent class instance variable.
+   2) Super can be used to invoke immediate parent class method.
+   3) super can be used to invoke immediate parent class constructor.
+
