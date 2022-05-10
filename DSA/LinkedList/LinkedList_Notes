@@ -1,0 +1,31 @@
+Question 1) What is LinkedList?
+Answer The linkedlist is a part of a collection framework.
+        It is a linear data structure where element are not stored in contigous memory location, adn every element is a seprate object with a data part or a address part.
+        The element are linked using pointer and address.
+        Each box or element are known as node.
+
+** Internal Linked List work.
+
+   1) Linked list act as a dynamic array and we do not specify the size while creating it The size of list automatically increase when we
+      dynamically add and remove items.
+
+   2) The Linked List is implemented using the doublt Linked List data structure.
+      The main difference between a normal list and doubly linked list is that doubly Linked Lis contain extra pointer, typically called the previous pointer.
+
+
+Question 1) What is head and tail?
+Answer) Head is a reference variable that is point to very first node.
+        Tail is pointing to the last one.
+
+
+        3 -> 4 - > 5 -> 6
+        // here head is pointing 3 and tail is pointing 6
+
+Question ) What all things do there box contain every single what does it contain.
+Answer) Node has itself type class Node. And it contain first value and second it contain whom it is pointing to whom its love.
+
+For example :-
+
+            3 -> 4 -> 5 -> 6 -> 7
+
+            3 is pointing to or 4 is pointing to 5 or 5 is pointing to 6 or 6 is pointing to 7
